@@ -100,22 +100,19 @@ Simple.v is our design file. The file ‘sky130_fd_sc_hd_tt_025C_1v80.lib’ inc
 ![b](https://user-images.githubusercontent.com/41202126/220869454-756517d3-3b3c-413f-9e3a-09d4a0e3fb13.PNG)
 
 
-![Screenshot from 2022-02-07 13-33-42](https://user-images.githubusercontent.com/73732594/152804739-04a6178c-a739-4655-b760-b46288af2a59.png)
-A typical example for the standard cell from OSU-180.lib file.
 
-## Constraints creation
+## OpenSTA Run script
 
-The SDC file provided for the lab. This consists of the clock period, IO delays, input transition and capacitance delays. 
-![Screenshot from 2022-02-07 19-46-47](https://user-images.githubusercontent.com/73732594/152805399-8f6b8c8b-793b-4286-81aa-5d88c9deecd8.png)
+![run1](https://user-images.githubusercontent.com/41202126/220872520-d6ebc4d5-b9c5-4679-9626-d3023076b20c.PNG)
 
-## OpenTimer Run script
-
-![Screenshot from 2022-02-07 19-53-25](https://user-images.githubusercontent.com/73732594/152807446-c8a6da52-7e15-4342-b0d1-dad8deb7080b.png)
-![Screenshot from 2022-02-07 20-01-22](https://user-images.githubusercontent.com/73732594/152807613-00e5c962-5d94-49b0-b1d2-c807d755e1bb.png)
 
 The timing checks aren't met since the slack is negative.
 
-![Screenshot from 2022-02-07 20-03-33](https://user-images.githubusercontent.com/73732594/152808162-776920d1-3ba1-449d-a0bf-13c76edbce7a.png)
+![slack1](https://user-images.githubusercontent.com/41202126/220872597-951dc38c-13dd-478c-b2ff-c7b2d358ecd9.PNG)
+
+![slack2](https://user-images.githubusercontent.com/41202126/220872641-3fc31998-2ac8-43c5-952f-c3da2dc3ed51.PNG)
+
+
 
 # Day-2 Summary
 
@@ -131,9 +128,10 @@ technology The .lib file contains timing models and data to calculate I/O delay 
 Exercises:
 
 • Find all the cells in simple_Late.lib.
+
+
 • Find all the pins of the cell NAND2_X1 in simple_Late.lib
 
-211 and 3.
 
 • What difference you see between NAND2_X1 and NAND3_X1
 
