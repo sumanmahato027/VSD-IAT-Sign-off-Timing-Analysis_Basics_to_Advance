@@ -281,7 +281,7 @@ In Synchronous clocks, events happen at a fixed phase relation whereas in asynch
 
 ## Author
 
-[Anmol Saxena], M.Tech IITB (2021-23)
+[Suman Mahato], M.Tech IITB (2021-23)
 
 
 
